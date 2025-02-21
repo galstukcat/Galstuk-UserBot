@@ -1,1 +1,3 @@
-art, pyrogram, tgcrypto
+TgCrypto==1.2.5
+Pyrogram==2.0.106
+art==6.4
