@@ -23,7 +23,7 @@ def main():
                 sticker_id = "CAACAgIAAxkBAAEMwxFntz7DUX2d-I_uPpEF6WkFGUIHrgACwmwAAtmluUnvqFWES1kS5zYE" # sticker_id
                 app.send_sticker(chat_id, sticker_id)
                 print(f"sended to {chat_id}")
-                time.sleep(0.5)
+                time.sleep(0.8)
         except KeyboardInterrupt:
             print("stop")
         except Exception as e:
